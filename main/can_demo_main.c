@@ -63,11 +63,11 @@ uint8_t can_flow_queue[5][8];
 unsigned int vehicle_speed = 0;
 float vehicle_rpm = 0;
 float vehicle_throttle = 0;
-char vehicle_vin[17] = "ESP32OBD2EMULATOR";
+char vehicle_vin[12] = "OBD2EMULATOR";
 
 static EventGroupHandle_t wifi_event_group;
 
-#define WIFI_SSID "ESP32-OBD2"
+#define WIFI_SSID "OBD4car"
 #define WIFI_PASS "88888888"
 
 
